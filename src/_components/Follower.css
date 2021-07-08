@@ -1,0 +1,33 @@
+.card {
+  background: var(--clr-white);
+  border-radius: var(--radius);
+  box-shadow: var(--light-shadow);
+  padding: 2rem 3.5rem;
+  text-align: center;
+}
+.card img {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 0.75rem;
+}
+
+.card h4 {
+  margin-bottom: 1.5rem;
+  font-size: 0.85rem;
+  color: var(--clr-grey-5);
+}
+
+.btn {
+  padding: 0.35rem 0.75rem;
+  letter-spacing: 1.6px;
+  font-size: 0.75rem;
+  color: var(--clr-white);
+  background: var(--clr-primary-5);
+  border-radius: var(--radius);
+  border-color: transparent;
+  text-transform: uppercase;
+  transition: var(--transition);
+  cursor: pointer;
+}
